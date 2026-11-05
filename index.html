@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap - Make Remote Work</title>
+    <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><a href="#"><img src="./assets/images/logo.svg" alt="snap's logo"/></a></div>
+        <button class="open-menu"><img src="./assets/images/icon-menu.svg" alt="iconmenu"/></button>
+        <div class="overlay"></div>
+        <nav class="navigation">
+            <button class="close-menu">
+                <img src="./assets/images/icon-close-menu.svg" alt="closemenu"/>
+            </button>
+            <ul class="nav-list">
+                <li class="nav-link">
+                    <button class="dropdown-toggle">Features<img src="./assets/images/icon-arrow-down.svg" alt="arrowicon"/></button>
+                    <ul class="dropdown-list features-dropdown">
+                        <li class="dropdown-link">
+                            <a href="#"><img src="./assets/images/icon-todo.svg" alt="todoimg"/>Todo List</a>
+                        </li>
+                        <li class="dropdown-link">
+                            <a href="#"><img src="./assets/images/icon-calendar.svg" alt="calendarimg"/>Calendar</a>
+                        </li>
+                        <li class="dropdown-link">
+                            <a href="#"><img src="./assets/images/icon-reminders.svg" alt="remindersimg"/>Reminders</a>
+                        </li>
+                        <li class="dropdown-link">
+                            <a href="#"><img src="./assets/images/icon-planning.svg" alt="planningimg">Planning</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <button class="dropdown-toggle">Company<img src="./assets/images/icon-arrow-down.svg" alt="arrowdown"/></button>
+                    <ul class="dropdown-list company-dropdown">
+                        <li class="dropdown-link"><a href="#">History</a></li>
+                        <li class="dropdown-link"><a href="#">Our Team</a></li>
+                        <li class="dropdown-link"><a href="#">Blog</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link"><a href="#">Careers</a></li>
+                <li class="nav-link"><a href="#">About</a></li>
+            </ul>
+
+            <div class="registration">
+                <button class="login">Login</button>
+                <button class="register">Register</button>
+            </div>
+        </nav>
+    </header>
+    <main class="hero">
+        <div class="text-content">
+            <h1>Make remote work</h1>
+            <p>
+                Get your team in sync, no matter your location.
+                Streamline processes, create team rituals, and
+                watch productivity soar.
+            </p>
+            <button class="learn-more">Learn more</button>
+            <section class="clients">
+                <img src="./assets/images/client-databiz.svg" alt="Databiz">
+                <img src="./assets/images/client-audiophile.svg" alt="Audiophile">
+                <img src="./assets/images/client-meet.svg" alt="Meet">
+                <img src="./assets/images/client-maker.svg" alt="Maker">
+            </section>
+        </div>
+        <picture class="hero-image">
+            <source media="(min-width: 768px)" srcset="./assets/images/image-hero-desktop.png">
+            <img src="./assets/images/image-hero-mobile.png" alt="People working remotely">
+        </picture>
+    </main>
+    <footer class="attribution">
+        Challenged by <a href="https://crio.do" target="_blank">Crio</a>
+        and completed by <a href="https://github.com/BVenkataSravanKumar/" target="_blank">B Venkata Sravan Kumar.</a>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
