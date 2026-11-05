@@ -414,3 +414,15 @@ ul {
         padding: 20px 10px;
     }
 }
+
+@media (max-width: 767px) {
+    .header .overlay {
+        display: none;
+        opacity: 0;
+    }
+
+    .header .overlay.active {
+        display: block;
+        opacity: 1;
+    }
+}
