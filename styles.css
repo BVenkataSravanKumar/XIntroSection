@@ -40,7 +40,7 @@ ul {
     padding: 30px 40px;
 }
 
-.logo img {
+.logo{
     width: 84px;
 }
 
@@ -94,6 +94,9 @@ ul {
 }
 
 .dropdown-list.show {
+    display: block;
+}
+.nav-link.link-open .dropdown-list {
     display: block;
 }
 
